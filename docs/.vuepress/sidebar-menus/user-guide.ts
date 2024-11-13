@@ -33,6 +33,7 @@ export default [{
             '/manual/projects/resource-model-sources/',
             '/manual/projects/resource-model-sources/aws',
             '/manual/projects/resource-model-sources/azure',
+            '/manual/projects/resource-model-sources/azure-aks',
             '/manual/projects/resource-model-sources/datadog',
             {text:'Docker', link:'/manual/projects/resource-model-sources/docker'},
             '/manual/projects/resource-model-sources/ecs-fargate',
