@@ -15,14 +15,9 @@ To configure the Azure AKS Resource Model Source:
 4. Configure the following settings:
   - **Subscription**: The Azure Subscription ID. If not provided, the value from the Azure plugin group at the Project or System context will be used.
   - **Tenant ID**: The Azure Tenant ID. If not provided, the value from the Azure plugin group at the Project or System context will be used.
-  - **Client ID**: The Azure Client ID. If not provided, the value from the Azure plugin group at the Project or System context will be used.
+  - **Client ID**: The path to the Key Storage entry for the Azure Client ID. If not provided, the Client ID value from the Azure plugin group at the Project or System context will be used. If an "Unauthorized" error occurs, ensure that the proper policy is added to ACLs.
   - **Azure Client Secret**: The path to the Key Storage entry for the Client Secret. If not provided, the value from the Azure plugin group at the Project or System context will be used. If an "Unauthorized" error occurs, ensure that the proper policy is added to ACLs.
   - **Resource Group**: Optionally filter the clusters listed from a specific Resource Group.
-
-
-:::warning Adding multiple Node Sources
-Only add one Node Source at a time. Adding multiple Node Sources simultaneously (before saving your changes in the Edit Nodes window) can cause UUID duplication conflicts. This will be addressed in an upcoming release.
-:::
 
 
 ## Authentication
