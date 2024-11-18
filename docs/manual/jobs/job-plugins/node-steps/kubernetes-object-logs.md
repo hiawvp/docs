@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Object Logs (Beta)
+# Kubernetes Clusters - Object Logs
 :::enterprise
 :::
 
 ## Overview
 
 This plugin allows you to view the logs of an object within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

@@ -1,14 +1,10 @@
-# Kubernetes Clusters - List Objects (Beta)
+# Kubernetes Clusters - List Objects
 :::enterprise
 :::
 
 ## Overview
 
 This plugin lists objects of a selected kind within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Describe Object (Beta)
+# Kubernetes Clusters - Describe Object
 :::enterprise
 :::
 
 ## Overview
 
 This plugin describes an object of a selected kind within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

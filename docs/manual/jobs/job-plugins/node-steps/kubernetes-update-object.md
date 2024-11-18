@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Update Object (Beta)
+# Kubernetes Clusters - Update Object
 :::enterprise
 :::
 
 ## Overview
 
 This plugin updates a specified object of a selected kind within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

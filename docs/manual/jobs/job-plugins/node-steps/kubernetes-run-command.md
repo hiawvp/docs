@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Run Command (Beta)
+# Kubernetes Clusters - Run Command
 :::enterprise
 :::
 
 ## Overview
 
 This plugin allows you to execute a command in a pod within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

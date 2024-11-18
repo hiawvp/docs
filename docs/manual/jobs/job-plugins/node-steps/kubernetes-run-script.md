@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Run Script (Beta)
+# Kubernetes Clusters - Run Script
 :::enterprise
 :::
 
 ## Overview
 
 This plugin executes a script using a predefined container image within a Kubernetes cluster. It deploys a Kubernetes Job to run the script in a container, then deletes the Job after execution. This plugin is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 

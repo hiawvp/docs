@@ -1,14 +1,10 @@
-# Kubernetes Clusters - Delete Object (Beta)
+# Kubernetes Clusters - Delete Object
 :::enterprise
 :::
 
 ## Overview
 
 This plugin deletes an object of a selected kind within a Kubernetes cluster. It is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
-
-:::warning
-Kubernetes Clusters Node Step plugins are in a Beta state
-:::
 
 ## Configuration
 
