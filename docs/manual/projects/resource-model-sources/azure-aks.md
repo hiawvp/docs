@@ -18,6 +18,7 @@ To configure the Azure AKS Resource Model Source:
   - **Client ID**: The path to the Key Storage entry for the Azure Client ID. If not provided, the Client ID value from the Azure plugin group at the Project or System context will be used. If an "Unauthorized" error occurs, ensure that the proper policy is added to ACLs.
   - **Azure Client Secret**: The path to the Key Storage entry for the Client Secret. If not provided, the value from the Azure plugin group at the Project or System context will be used. If an "Unauthorized" error occurs, ensure that the proper policy is added to ACLs.
   - **Resource Group**: Optionally filter the clusters listed from a specific Resource Group.
+  - **Use Pod Service Account for Node Steps**: Choose whether to authenticate with the Pod Service Account for Job steps. Set to `True` if Runbook Automation or a Runner is executing within the targeted cluster.
 
 
 ## Authentication
