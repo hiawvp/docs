@@ -4,7 +4,7 @@
 
 ## Overview
 
-This plugin executes a script using a predefined container image within a Kubernetes cluster. It deploys a Kubernetes Job to run the script in a container, then deletes the Job after execution. This plugin is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS node-source plugins.
+This plugin executes a script using a predefined container image within a Kubernetes cluster. It deploys a Kubernetes Job to run the script in a container, then deletes the Job after execution. This plugin is designed to work in conjunction with the AWS EKS, GCP GKE, and Azure AKS [Resource Model Source plugins](/manual/projects/resource-model-sources/).
 
 ## Configuration
 
@@ -30,7 +30,12 @@ This plugin executes a script using a predefined container image within a Kubern
 
 ## Authentication
 
-Follow the authentication setup instructions in the [Kubernetes Plugins Overview](/manual/plugins/kubernetes-plugins-overview) documentation.
+Kubernetes Clusters plugins operate on a per-cluster basis and authenticate in one of two ways, as configured in the [Resource Model Plugin](/manual/projects/resource-model-sources/) used to fetch the nodes. This configuration is controlled by the `Use Pod Service Account for Node Steps` option:
+
+1. When disabled, the plugin uses the cloud provider credentials set in the resource model to retrieve the
+kube-config for the targeted cluster.
+
+2. When enabled, the [Enterprise Runner](/administration/runner/) must be placed in the cluster and uses its pod's K8s service account for authentication.
 
 ## Notes
 
