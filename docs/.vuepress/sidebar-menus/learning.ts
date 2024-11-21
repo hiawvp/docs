@@ -189,7 +189,6 @@ export default [{
           collapsible: true,
           children: [
             { link: '/learning/solutions/automated-diagnostics/index.md', text: 'Solution Summary' },
-            { link: '/learning/solutions/automated-diagnostics/getting-started.md', text: 'Getting Started' },
             { link: '/learning/solutions/automated-diagnostics/automation-actions.md', text: 'Configuring Automation Actions' },
             { link: '/learning/solutions/automated-diagnostics/first-diagnostic-runbook.md', text: 'First Diagnostic Runbook' },
             { link: '/learning/solutions/automated-diagnostics/integrating-chat-tools.md', text: 'Integrating Chat Tools' },
@@ -234,7 +233,7 @@ export default [{
           ]
         },
         {
-          text: 'Database Mangement',
+          text: 'Database Management',
           link: '/learning/solutions/database-management/index.md',
           collapsible: true,
           children: [
@@ -242,6 +241,14 @@ export default [{
             { link: '/learning/solutions/database-management/db-and-autodiag.md', text: 'Databases + Auto Diagnostics' },
             { link: '/learning/solutions/database-management/postgres-reindex.md', text: 'Reindex PostgreSQL Database' },
             { link: '/learning/solutions/database-management/postgres-backup-restore.md', text: 'Backup and Restore PostgreSQL' },
+          ]
+        },
+        {
+          text: 'Storage Management',
+          link: '/learning/solutions/storage-management/index.md',
+          collapsible: true,
+          children: [
+            { link: '/learning/solutions/storage-management/index.md', text: 'Solution Summary' },
           ]
         }
       ]
